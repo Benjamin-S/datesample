@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import CssBaseline from '@material-ui/core/CssBaseline';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CssBaseline>
+    <Router>
       <App />
-    </CssBaseline>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
