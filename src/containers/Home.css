@@ -1,9 +1,40 @@
-.Home .lander {
-  padding: 80px 0;
+/* .Home .lander {
   text-align: center;
+} */
+
+/* * {
+  border: solid black 1px;
+} */
+
+/* .Home {
+  display: flex;
+  justify-content: center;
+} */
+
+/* .datePickers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+.datePickers {
+  align-items: center;
 }
 
-.Home .lander h1 {
+.options {
+  display: flex;
+  align-items: center;
+}
+
+/* @media only screen and (max-width: 991px) {
+  .datePickers {
+    text-align: center;
+  }
+} */
+
+
+.Home h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
